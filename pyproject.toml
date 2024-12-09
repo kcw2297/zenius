@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "zenius"
+version = "0.1.0"
+description = ""
+authors = ["kcw2297 <kcw2371@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+gluonts = "^0.16.0"
+matplotlib = "^3.9.3"
+jupyter = "^1.1.1"
+torch = "^2.5.1"
+lightning = "^2.4.0"
+torchvision = "^0.20.1"
+torchaudio = "^2.5.1"
+scipy = "^1.14.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
